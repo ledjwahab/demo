@@ -9,7 +9,7 @@ public class multiplierImpl implements multiplier {
     public product doTimesFive(int a) {
         product result = new product();
         result.setResult(String.valueOf(a*5));
-        result.setMultiplicand("5");
+        result.setMultiplier("5");
         return result;
     }
 }
