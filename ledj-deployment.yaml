@@ -20,7 +20,8 @@ spec:
           image: ledj1996/demo:new
           imagePullPolicy: Always
           ports:
-            - containerPort: 80
+            - containerPort: 8080
               protocol: TCP
       restartPolicy: Always
+
       
